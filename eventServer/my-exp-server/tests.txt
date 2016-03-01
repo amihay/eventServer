@@ -1,0 +1,5 @@
+all - http://127.0.0.1:3000/api/events
+by id - http://127.0.0.1:3000/api/events/777
+create - http://127.0.0.1:3000/api/event?data={%22sessionId%22:1234,%22name%22:%22David%22,%22data%22:{%22millisecondsFromStart%22:1500,%22smile%22:%220.92%22,%22sleep%22:false,%22lookAtTheScreen%22:true}}
+
+health -  http://127.0.0.1:3000/health
